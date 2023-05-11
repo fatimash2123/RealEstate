@@ -1,0 +1,354 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/****************  Header ********************/
+
+.navbar {
+    height: 40%;
+
+
+}
+
+.navbar-brand {
+    font: bold;
+    align-content: center;
+    font-size: 35px;
+    font-weight: bold;
+    transition: 0.4s;
+    border: 1px solid rgb(247, 179, 57);
+    padding: 1%;
+}
+
+
+.nav-item {
+    margin-left: 1%;
+    width: 120px;
+    text-align: center;
+    float: right !important;
+}
+
+.nav-link {
+    transition: 0.7s;
+}
+
+.nav-link:hover {
+    color: rgb(247, 179, 57) !important;
+}
+
+
+.collapse ul li a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    height: 5%;
+    margin-bottom: 0.5%;
+    padding-right: 2%;
+}
+
+/****************  Profile Header image section ********************/
+.ProfileName {
+    position: relative;
+    text-align: center;
+}
+
+.Profilecontainer {
+    margin-top: 2%;
+}
+
+.titleContent {
+    position: absolute;
+    color: white;
+    letter-spacing: 0.5rem;
+    top: 30%;
+    left: 40%;
+}
+
+.profilebg {
+    width: 100%;
+    height: 50%;
+
+}
+
+.containerMain {
+    padding: 1%;
+}
+
+ul li a {
+    width: 150px;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: rgb(247, 179, 57);
+    border: none;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+}
+
+
+.profileInfo {
+    width: 80%;
+    height: auto;
+    text-align: center;
+    background-color: lightgray;
+    margin-left: 8%;
+    padding-top: 5%;
+    padding: 2%;
+}
+
+.pbtn {
+    width: 100%;
+    border: none;
+    margin-top: 1%;
+    transition: 0.3s;
+}
+
+.pbtn:hover {
+    background-color: #343a40;
+    color: white;
+
+}
+
+.profileInfo img {
+    width: 60%;
+
+}
+
+.rightside {
+    width: 100%;
+    float: right;
+
+}
+
+.circle {
+    height: 100%;
+    width: 70%;
+    text-align: center;
+    vertical-align: middle;
+    padding: 1%;
+    color: #ffffff;
+    padding-top: 3%;
+    transition: 0.3s;
+}
+
+.circle:hover {
+    
+    color: rgb(247, 179, 57);
+}
+
+.about {
+    background-color: lightgray;
+    margin-top: 2%;
+    padding: 2%;
+}
+
+/****************  footer ********************/
+footer {
+    bottom: 0;
+
+    width: 100%;
+}
+
+.Footercontainer {
+    align-self: flex-end;
+    width: 100%;
+}
+
+.socialM {
+    padding: 1%;
+    margin-right: 5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    transition: 0.7s;
+}
+
+nav a:hover {
+    color: rgb(247, 179, 57) !important;
+}
+
+.addressIcon {}
+
+.address {
+    margin: 2%;
+    padding-left: 2%;
+    margin-left: 2%;
+}
+
+
+/******************************* Rating*********************** */
+
+
+#ratings {
+    width: 95%;
+    padding: 2%;
+}
+
+
+
+.heading {
+    font-size: 25px;
+    margin-right: 25px;
+}
+
+.fa {
+    font-size: 25px;
+}
+
+.checked {
+    color: orange;
+}
+
+/* Three column layout */
+.side {
+    float: left;
+    width: 15%;
+    margin-top: 10px;
+}
+
+.middle {
+    margin-top: 10px;
+    float: left;
+    width: 70%;
+}
+
+/* Place text to the right */
+.right {
+    text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The bar container */
+.bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+}
+
+/* Individual bars */
+.bar-5 {
+    width: 60%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+
+.bar-4 {
+    width: 30%;
+    height: 18px;
+    background-color: #2196F3;
+}
+
+.bar-3 {
+    width: 10%;
+    height: 18px;
+    background-color: #00bcd4;
+}
+
+.bar-2 {
+    width: 4%;
+    height: 18px;
+    background-color: #ff9800;
+}
+
+.bar-1 {
+    width: 15%;
+    height: 18px;
+    background-color: #f44336;
+}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+
+    .side,
+    .middle {
+        width: 100%;
+    }
+
+    .right {
+        display: none;
+    }
+}
+
+/*********************Commeents ****************************/
+#Comments {
+    padding: 2%;
+}
+
+input {
+    margin-top: 1%;
+    width: 100%;
+    padding: 1%;
+}
+
+.postBtn {
+    margin-top: 1%;
+    float: right;
+}
+
+.com {
+    background-color: lightgray;
+    padding: 2%;
+    height: auto;
+    margin-top: 1%;
+}
+
+.com img {
+    background: transparent;
+    width: 50%;
+    height: 85%;
+    border-radius: 100%;
+}
+
+.name {
+    font-weight: bold;
+    font-size: large;
+}
+
+.comContent {
+    margin-left: 0%;
+    padding-left: 0%;
+}
+
+.pInfo {
+    margin-left: 7%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .ProfileName {
+        display: none;
+    }
+
+    .circle {
+        width: 90%;
+        margin-left: 0%;
+        margin-top: 2%;
+        margin-right: 5%!important;
+    }
+
+
+}

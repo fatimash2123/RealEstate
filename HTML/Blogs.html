@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/blogs.css">
+    <link rel="stylesheet" href="../CSS/LandlordProfile.css">
+    <script src="https://kit.fontawesome.com/96dd36d5b3.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Blogs</title>
+
+</head>
+
+
+<body onload="active()">
+    <!------------- Navbar ------------------------>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="navbar-brand">Real Estate system</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="search.html">Search</a>
+                <a class="nav-item nav-link" href="Blogs.html">Blog</a>
+                <a class="nav-item nav-link" href="aboutus.html">About us</a>
+                <a class="nav-item nav-link" href="contactus.html">Contact us</a>
+                <a class="nav-item nav-link" href="Login.html"><i class="fa-regular fa-user"></i>
+                    LogIn</a>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section class="main">
+        <ul>
+            <li> <button onclick="openRE()" class="navbtn" id="RE">Real Estate</button></li>
+            <li><button onclick="openP()" class="navbtn" id="P"> Property</button></li>
+            <li><button onclick="openPL()" class="navbtn" id="PL">Property Law</button></li>
+            <li><button onclick="openAC()" class="navbtn" id="AC"> Awareness Campaign</button></li>
+            
+        </ul>
+    </section>
+    <iframe id="frame" width="100%" height="600vh"></iframe>
+
+
+
+    <!------------- Footer ------------------------>
+
+    <footer class="bg-dark navbar-dark text-light">
+        <div class="Footercontainer">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-4">
+                    <h5>Real Estate System</h5>
+                    <i class="fa-brands fa-instagram socialM"></i>
+                    <i class="fa-brands fa-twitter socialM"></i>
+                    <i class="fa-brands fa-facebook-f socialM"></i>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4">
+                    <h5>Company</h5>
+                    <nav>
+                        <a href="aboutus.html">About us</a> <br>
+                        <a href="contactus.html">Contact us</a> <br>
+                        <a href="#">Help & Support</a> <br>
+                        <a href="#">FAQ</a> <br>
+                        <a href="#">Terms of use</a> <br>
+
+                    </nav>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-4">
+                    <h5>Head Office</h5>
+                    <table>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-location-dot addressIcon"></i>
+                            </td>
+                            <td>
+                                <p class="address">Pearl One, 94-B/I, MM Alam Road,</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-phone"></i>
+                            </td>
+                            <td>
+                                <p class="address">0800-ZAMEEN (92633)</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-envelope"></i>
+                            </td>
+                            <td>
+                                <p class="address">RealEstate@gmail.com</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script>
+
+    function openRE() {
+        var ids = ["RE", "PL", "AC","P"];
+        document.getElementById("frame").src = "realEstate.html";
+        for (var i in ids) {
+            document.getElementById(ids[i]).style.backgroundColor = "lightgray";
+            document.getElementById(ids[i]).style.color = "black";
+            if (ids[i] == "RE") {
+                document.getElementById(ids[i]).style.backgroundColor = "#343a40";
+                document.getElementById(ids[i]).style.color = "white";
+            }
+        }
+    }
+    function openPL() {
+        var ids = ["RE", "PL", "AC","P"];
+        document.getElementById("frame").src = "propertyLaw.html";
+        for (var i in ids) {
+            document.getElementById(ids[i]).style.backgroundColor = "lightgray";
+            document.getElementById(ids[i]).style.color = "black";
+            if (ids[i] == "PL") {
+                document.getElementById(ids[i]).style.backgroundColor = "#343a40";
+                document.getElementById(ids[i]).style.color = "white";
+            }
+        }
+    }
+    function openAC() {
+        var ids = ["RE", "PL", "AC","P"];
+        document.getElementById("frame").src = "awarenessCampaign.html";
+        for (var i in ids) {
+            document.getElementById(ids[i]).style.backgroundColor = "lightgray";
+            document.getElementById(ids[i]).style.color = "black";
+            if (ids[i] == "AC") {
+                document.getElementById(ids[i]).style.backgroundColor = "#343a40";
+                document.getElementById(ids[i]).style.color = "white";
+            }
+        }
+    }
+    function openP(){
+        var ids = ["RE", "PL", "AC","P"];
+        document.getElementById("frame").src = "property.html";
+        for (var i in ids) {
+            document.getElementById(ids[i]).style.backgroundColor = "lightgray";
+            document.getElementById(ids[i]).style.color = "black";
+            if (ids[i] == "P") {
+                document.getElementById(ids[i]).style.backgroundColor = "#343a40";
+                document.getElementById(ids[i]).style.color = "white";
+            }
+        }
+    }
+    function active() {
+        document.getElementById("RE").click();
+        document.getElementById("RE").style.backgroundColor = "#343a40";
+        document.getElementById("RE").style.color = "white";
+    }
+</script>
+
+</html>

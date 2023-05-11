@@ -1,0 +1,63 @@
+* {
+    overflow-x: hidden;
+}
+
+.main img {
+    /* position: fixed; */
+    opacity: 0.8;
+    /* filter: blur(2px); */
+
+    width: 100%;
+    
+}
+
+.main {
+    position: relative;
+    text-align: center;
+    color: white;
+   
+}
+
+.content {
+
+    position: absolute;
+    top: 40px;
+    right: 16px;
+}
+.para h3 {
+    text-decoration: underline;
+}
+
+.para{
+    text-align: justify;
+    color: black;
+    background-color: lightgray;
+    text-align: center;
+    padding: 2%;
+}
+
+.navbar {
+    margin-bottom: 0%!important;
+}
+
+
+.containerfirst {
+    padding: 2%;
+    background-color: gray;
+    /* margin-top: 2%; */
+    color: black;
+}
+
+.containerfirst img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 1%;
+    float: left;
+}
+
+.contentSecond {
+    
+    padding: 2%;
+    text-align: center;
+    padding-top: 5%;
+}

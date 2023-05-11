@@ -1,0 +1,154 @@
+.main img {
+    width: 100%;
+    height: 80%;
+}
+
+.main {
+    position: relative;
+    text-align: center;
+   
+}
+
+.content {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    padding: 2%;
+}
+
+.content input {
+    width: 85%;
+}
+
+.btnMain {
+    width: 10%;
+    padding: 1%;
+    background-color: #343a40;
+    color: white;
+    transition: 0.3s;
+}
+
+.btnMain:hover {
+    color: rgb(247, 179, 57);
+    opacity: 0.7;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    top: auto;
+}
+
+.navbar {
+    margin-bottom: 0%!important;
+}
+.propImg {
+    width: 90%;
+}
+
+.p_View {
+    background-color: lightgray;
+    /* margin-top: 2%; */
+    padding: 1%;
+}
+
+.prop {
+    text-align: center;
+    border: 1px solid #343a40;
+    padding: 1%;
+    transition: 0.3s;
+    margin-left: 6%;
+    margin-top: 2%;
+    width: 40%;
+    margin-bottom: 1%;
+}
+
+.prop:hover {
+    background-color: #343a40;
+    color: white;
+}
+
+.btn {
+    display: block;
+  margin-left: auto;
+  margin-right: 6%;
+  width: auto!important;
+
+}
+
+.KeyPoints {
+    background-color: gray;
+    text-align: center;
+    color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+strong {
+    display: inline-block;
+    text-decoration: underline;
+    color: rgb(247, 179, 57);
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+.kp {
+    padding: 2%;
+    margin: 2%;
+    margin-right: 6%;
+    border: 1px #343a40 solid;
+    width: 40%;
+}
+
+.blogdiv{
+    background-color: #EEEEEE;
+    text-align: center;
+    color: black;
+    /* padding-top: 2%; */
+    padding-bottom: 2%;
+}
+.card {
+    width: 100%!important;
+    /* margin-right:2%; */
+    margin-top: 2%;
+    margin-bottom: 2% ;
+   
+}
+
+.blogdiv button {
+    margin-left: 1%;
+    float: right;
+}
+
+.blogdiv .container {
+    width: 100%!important;
+}
+
+.temp {
+    /* border: #343a40 1px solid; */
+    width: 50%;
+}
+
+.blogdiv .container .row {
+    margin-bottom: 2%;
+}
+
+
+.talkToUs {
+    background-color: #847e89;
+    color: white;
+    padding: 2%;
+}
+
+.talkToUs h2 {
+    float: left;
+    margin-left: 5%;
+    padding-left: 4%;
+}
+
+.contactbtn {
+    float: right!important;
+    width: 40%;
+    text-align: right;
+    /* margin-right: 10%; */
+}

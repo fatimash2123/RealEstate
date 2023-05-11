@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/LandlordProfile.css">
+    <script src="https://kit.fontawesome.com/96dd36d5b3.js" crossorigin="anonymous"></script>
+    <!-- Font Awesome Icon Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="../JavaScript/Landlord.js"></script>
+
+
+    <title>Profile</title>
+</head>
+
+<body>
+    <!------------- Navbar ------------------------>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="navbar-brand">Real Estate system</h1>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="search.html">Search</a>
+                <a class="nav-item nav-link" href="Blogs.html">Blog</a>
+                <a class="nav-item nav-link" href="aboutus.html">About us</a>
+                <a class="nav-item nav-link" href="contactus.html">Contact us</a>
+                <a class="nav-item nav-link" href="Login.html"><i class="fa-regular fa-user"></i>
+                    LogIn</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="containerMain" id="ProfileOverview">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-4">
+                <!-------------------- left aside ----------------------------->
+
+                <aside class="profileInfo">
+
+                    <img src="../IMAGES/profilepic.jpg" alt="profilepic" id="profilepic"><br>
+                    <h6>Dean Thomas</h6>
+                    <p>Male</p>
+                    <button class="pbtn" onclick="MoveTo(this)">
+                        <i class="fa-solid fa-star"></i>
+                        <p>Ratings</p>
+                        
+                    </button><br>
+                    <button class="pbtn" onclick="MoveTo(this)">
+                        <i class="fa-regular fa-comments"></i>
+                        <p>Reviews</p></button><br>
+
+                    <br>
+                    <button class="btn">
+                        Edit Profile
+                    </button>
+
+                </aside>
+
+            </div>
+
+
+            <div class="col-12 col-md-8 col-lg-8">
+                <aside class="rightside">
+                    <!------------------- profile background  --------------------------->
+                    <div class="ProfileName">
+                        <div class="titleContent">
+                            <h2>LandLord <br>
+                            </h2>
+                            <h4>Dean Thomas</h4>
+                        </div>
+
+
+                        <img class="profilebg" src="../IMAGES/profilebg.jpg" alt="profile">
+                    </div>
+
+                    <!------------------- profile Overview  --------------------------->
+
+
+                    <div class="Profilecontainer">
+                        <div class="row pInfo">
+                            <div class="col-12 col-lg-4 col-md-4">
+                                <button class="circle bg-dark" onclick="display(this)">
+                                    <h4>3</h4>
+                                    <p>Properties Uploaded</p>
+                                </button>
+
+                            </div>
+
+                            <div class="col-12 col-lg-4 col-md-4">
+                                <button class="circle bg-dark" onclick="display(this)">
+                                    <h4>4</h4>
+                                    <p>Properties Rented</p>
+                                </button>
+
+                            </div>
+
+                            <div class="col-12 col-lg-4 col-md-4">
+                                <button class="circle bg-dark" onclick="display(this)">
+                                    <h4>2</h4>
+                                    <p>Total Tenants</p>
+                                </button>
+
+                            </div>
+
+                        </div>
+                        <hr>
+                        <div class="about">
+                            <h4>About</h4>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a
+                                piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard
+                                McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of
+                                the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through
+                                the cites of the word in classical literature, discovered the undoubtable source. Lorem
+                                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The
+                                Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the
+                                theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum,
+                                "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+
+                        </div>
+                        <hr>
+
+                        <div id="ratings">
+                            <span class="heading">Dean Thomas</span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star checked"></span>
+                            <span class="fa fa-star"></span>
+                            <p>4.1 average based on 254 reviews.</p>
+                            <hr style="border:3px solid #f1f1f1">
+
+                            <div class="row">
+                                <div class="side">
+                                    <div>5 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-5"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>150</div>
+                                </div>
+                                <div class="side">
+                                    <div>4 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-4"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>63</div>
+                                </div>
+                                <div class="side">
+                                    <div>3 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-3"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>15</div>
+                                </div>
+                                <div class="side">
+                                    <div>2 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-2"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>6</div>
+                                </div>
+                                <div class="side">
+                                    <div>1 star</div>
+                                </div>
+                                <div class="middle">
+                                    <div class="bar-container">
+                                        <div class="bar-1"></div>
+                                    </div>
+                                </div>
+                                <div class="side right">
+                                    <div>20</div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <hr>
+
+                        <div id="Comments">
+                            <span class="heading">Last Comments</span>
+                            <hr style="border:3px solid #f1f1f1">
+
+                            <div class="com">
+                                <div class="row">
+                                    <div class="col-2 col-md-2 col-lg-2">
+                                        <img src="../IMAGES/profile.jpg" alt="Profile">
+                                    </div>
+
+                                    <div class="col-10 col-md-10 col-lg-10">
+                                        <p class="comContent"><span class="name"> Ami Norm</span><br> indeed a good
+                                            landlord :)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="com">
+                                <div class="row">
+                                    <div class="col-2 col-md-2 col-lg-2">
+                                        <img src="../IMAGES/profile1.jpg" alt="Profile">
+                                    </div>
+
+                                    <div class="col-10 col-md-10 col-lg-10">
+                                        <p class="comContent"><span class="name"> John Smith</span><br> Great time spend
+                                            with dean Thomas.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <input type="text" placeholder="Enter Comment">
+                            <button class="btn postBtn">Post</button>
+                        </div>
+
+                    </div>
+
+                </aside>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <!------------- Footer ------------------------>
+
+    <footer class="bg-dark navbar-dark text-light">
+        <div class="Footercontainer">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-4">
+                    <h5>Real Estate System</h5>
+                    <i class="fa-brands fa-instagram socialM"></i>
+                    <i class="fa-brands fa-twitter socialM"></i>
+                    <i class="fa-brands fa-facebook-f socialM"></i>
+                </div>
+                <div class="col-6 col-md-4 col-lg-4">
+                    <h5>Company</h5>
+                    <nav>
+                        <a href="#">About us</a> <br>
+                        <a href="#">Contact us</a> <br>
+                        <a href="#">Help & Support</a> <br>
+                        <a href="#">FAQ</a> <br>
+                        <a href="#">Terms of use</a> <br>
+
+                    </nav>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-4">
+                    <h5>Head Office</h5>
+                    <table>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-location-dot addressIcon"></i>
+                            </td>
+                            <td>
+                                <p class="address">Pearl One, 94-B/I, MM Alam Road,</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-phone"></i>
+                            </td>
+                            <td>
+                                <p class="address">0800-ZAMEEN (92633)</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <table>
+                        <tr>
+                            <td>
+                                <i class="fa-solid fa-envelope"></i>
+                            </td>
+                            <td>
+                                <p class="address">RealEstate@gmail.com</p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

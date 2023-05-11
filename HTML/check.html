@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+< <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<style>
+    .navbar {
+        width: 100%;
+        height: 100px;
+
+    }
+
+    li {
+        margin: 0px;
+        padding: 0px;
+        width: 130px;
+    }
+
+    .categoryLinks a{
+        color: white;
+    }
+
+    .sidebar{
+        height:400px
+    }
+    .sidebar label,h3,p{
+        color:white;
+    } 
+    #maintext{
+        color:black;
+    }
+    .commentcol{
+        background-image: url("images/gray.avif");
+      
+        align-items: center;
+        box-sizing: border-box;
+    
+        
+    }
+    .comments h2{
+        color: rgb(46, 45, 45);
+        
+    }
+    .comments textarea,input,h2{
+        margin: 15px;
+    }
+    .button {
+        font-size: 16px;
+        margin: 10px;
+        border-radius: 40px;
+        width: 130px;
+        height: 30px;
+
+    }
+    .footer {
+      height: 200px;
+      margin-top: 30px;
+      color: white;
+      align-items: center;
+      align-content: center;
+      box-sizing: border-box;
+    }
+
+.footer ul{
+  height:60;
+
+}
+    .footer li {
+
+      color: white;
+      height:30px;
+      align-self: center;
+      list-style-type: none;
+    }
+
+    .footer p {
+      text-align: center;
+      height:30px;
+      font-size: 14px;
+      font-weight: bold;
+
+    }
+    .footer ul a{
+      height: 30px;
+      color: white;
+      font-size: 12px;
+    
+    }
+    .captionDiv p{
+      font-size: 40px;
+      font-weight: bolder;
+      opacity: 0.9;
+      position: relative;
+    }
+    .navigationItem {
+      margin-top: 15px;
+      margin-bottom: 10px;
+      width: 10vw;
+
+
+      margin-left: 5px;
+      text-overflow: ellipsis;
+
+    }
+
+    .navigationItemContainer {
+
+      text-align: center;
+      align-items: center;
+      margin-left: 20vw;
+      font-size: 14px;
+      text-overflow: ellipsis;
+    }
+
+    .heading {
+      font-size: 30px;
+      margin-top: -20px;
+      margin-left: -10px;
+      line-height: 40px;
+      text-align: right;
+    }
+
+    .dropdownList {
+      width: 180px;
+      font-size: 12px;
+      border: 2px solid black;
+    }
+</style>
+
+</head>
+
+<body>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">
+
+    <a class="navbar-brand mb-0 h1 heading" href="index.html">
+
+      IT Store
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  navigationItemContainer">
+        <li class="nav-item active">
+          <a class="nav-link navigationItem" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+
+        <li class="nav-item dropdown active">
+
+          <a class="dropdown-toggle nav-link navigationItem" href="#" role="button" id="dropdownMenuLink"
+            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Categories
+          </a>
+
+          <div class="dropdown-menu dropdownList" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="categoryTesting.html">Testing</a>
+            <a class="dropdown-item" href="category.html">Web Portal</a>
+            <a class="dropdown-item" href="categoryInternetOfThings.html">Internet of Things</a>
+          </div>
+
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link navigationItem" href="blogCategories.html">Blog</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link navigationItem" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link navigationItem" href="aboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link navigationItem" href="contactus.html">Contact Us</a>
+        </li>
+      </ul> 
+
+    </div>
+
+  </nav>
+
+<section class="container">
+    <div class="row">
+        <h1 class="col-md-12">10 coding blogs will keep you ahead of the tech curve</h1>
+    </div>
+    <div class="row " >
+        <p class="col-lg-8" id="maintext">
+            <img src="images/blogs/codingblog.jpg" style="width: 100%; height: 400px;">
+            In her Starting Out In Tech series, WorkingNation Associate Producer & Project Manager Jaimie Stevens shares her insight on what it takes to succeed in learning computer programming skills.
+
+<br>
+<strong>
+WorkingNation’s Jaimie Stevens.</strong>
+There are a lot of blogs about tech — so many, in fact, that I’ve decided to break the blog recommendations down into increments. This article, in particular, is meant to help you shape your coding ability. What can you read that’s specifically meant to improve your coding skills as a beginner? Here are a couple of my favorites for you, for a variety of languages.
+<br>
+<strong>
+CodePen Blog</strong>
+This is the first blog I used in my very first introduction to coding class with General Assembly. CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It works by letting you create “pens,” which are sets of HTML, CSS, and JavaScript. It serves as an online code editor and an open-source learning environment. CodePen is one of the largest communities for web designers to show their coding skills.
+<br>
+<strong>
+NSHipster</strong>
+The blog brings a sense of humor and personality to learning more about Objective-C, Swift, and Cocoa. They have a strong team of writers and have a couple of publications out if you like what you see online. They also put together their own “NSHipster quizzes” so you can challenge yourself if you want to.
+<br>
+<strong>
+Ray Wenderlich</strong>
+This blog is a great place to improve your skills in iOS, MacOS, Unity, Swift, and Apple Game Frameworks. The blog has podcasts, as well as an extensive video tutorial collection for each of the aforementioned languages. A large team of authors, editors, subject matter experts, app reviewers, etc. power the site and their priority is to make it the most challenging topics easy for everyone to learn.
+
+The Ray Wenderlich blog has a massive library of coding tutorials.
+<br>
+<strong>
+CSS-Tricks</strong>
+When it was founded back in 2007, CSS-Tricks was primarily all about CSS. Since then, the blog has become all about web design and development. It provides you with video screencasts about HTML, Flexbox, building games with JavaScript and more. It contains a section with complete guides ranging from table elements to jQuery to CSS Gradients, as well as an almanac that lists CSS selectors and properties. There is also a forum for comments and questions and a page for job postings as well.
+
+RELATED STORY: Side projects that will enhance your programming skills
+<br>
+<strong>
+The Crazy Programmer</strong>
+This blog provides informative articles about programming and the tech scene in addition to programs, tutorials, and practice interview questions about C, C++, Java, Android, Python, .Net, PHP, Javascript, SQL and PL/SQL. It also gives recommendations on free eBooks to read for all of those languages.
+<br>
+<strong>
+The Daily WTF</strong>
+I mentioned in one of my other articles that, even though it might seem like you are working independently as a coder, you need to be prepared to work with a team. You don’t want to be the weak team member. The Daily WTF is a user-submitted blog that highlights some of the worst coding practices that happen in a real working environment. While you’re working on your own as a beginner, this blog can give you a glimpse of what it’s like to work with bad coders, and teach you what not to do. Plus it’s funny.
+
+The Daily WTF blog has a humorous bent on web programming and IT culture.
+
+ 
+<br>
+<strong>
+My Programming Blog (MPB)</strong>
+This blog provides articles on programming tricks, tools, and shortcuts. It has tutorials on C, Java, PHP, Python, and Ruby on Rails. The blog, created in 2011, is designed to help people navigate the world of programming and development tools. The creator of the blog started the site with some basic notes and questions that he gathered in class in college. Apparently, the posts came in high demand by the community, and soon his personal blog turned into the programming review, snippets, and tutorials provider that it is today.
+<br>
+<strong>
+David Walsh Blog</strong>
+This blog mainly covers HTML5, CSS, and JavaScript as well as AJAX, jQuery, and Canvas. The posts are structured as tutorials with goals and examples, instead of theories and vague guidelines. It definitely will serve as a great place for you to learn. David Walsh posts frequently.
+<br>
+<strong>
+Coding Horror</strong>
+People love this blog. Written by Jeff Atwood, who created Stack Overflow, I’ve primarily included this one because it’s an honest, funny blog that addresses the issues an ironies of software development, it’s ecosystem, and how it interacts (or doesn’t) with the business world. It’s been around since 2004. Jeff has a clever way of looking at the overall picture of coding and will provide you with a refreshing perspective of the tech world when you might be getting overwhelmed.
+
+The W3Schools website has multiple tutorials on computer programming.
+<br>
+<strong>
+W3Schools</strong>
+I used this blog in my Javascript class a lot, too. W3Schools is a free, exceptional resource for beginner tutorials. W3Schools includes tutorials and references on web development languages such as HTML, CSS, JavaScript, PHP, SQL, and JQuery, covering most aspects of web programming. The site has been around since 1998 and focuses on keeping learning simple, as it should be. Tutorials start with the fundamentals and move all the way up to complete professional references.
+
+ </p>
+
+
+
+
+
+
+        <div class="col-lg-4 bg-secondary sidebar">
+            <div class="container sidebar">
+                <label class="row">Search
+                    <input class="col-md-12" type="search">
+                </label>
+                <hr>
+
+                <label class="row">Categories
+                    <ul class="col-md-12 categoryLinks">
+                        <a href="blogCategories.html">
+                            <li>Internet of things</li>
+                        </a>
+                        <a href="blogCategories.html">
+                            <li>Testing</li>
+                        </a>
+                        <a href="blogCategories.html">
+                            <li>Voice Recognition</li>
+                        </a>
+                        <a href="blogCategories.html">
+                            <li>Web Portal Software</li>
+                        </a>
+                        <a href="blogCategories.html">
+                            <li>API Design Software</li>
+                        </a>
+
+                    </ul>
+                </label>
+                <hr>
+                <div class="row">
+                    <h3>About Us</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                        been the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+                        of type and
+                        scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the leap into
+                        electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                        with the release of
+                        Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                        software like
+                        Aldus PageMaker including versions of Lorem Ipsum.</p>
+                </div>
+                <hr>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container comments">
+<div class="row">
+    <div class="col-lg-4 commentcol">
+    <h2 class="">Leave Your Comments here:</h2>
+    <br>
+    <textarea class="" rows="10" cols="40"></textarea>
+    <br>
+    <input type="submit" value="Submit" class="button btn btn-light btn-outline-secondary ">
+</div>
+</div>
+</section>
+<footer class="footer bg-dark ">
+    <div>
+      <p>Copyright © 2022, Design by FatimaShahzad </p>
+      <ul>
+        <li>
+          <a href="contactus.html">Contact Us</a>
+        </li>
+        <li>
+          <a href="aboutUs.html">About Us</a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+</body>
+
+</html>

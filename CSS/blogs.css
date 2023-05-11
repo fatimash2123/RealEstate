@@ -1,0 +1,40 @@
+
+/* .framecont{
+    margin-top: 5%;
+    border:3px solid grey;
+}
+iframe{
+    height:auto;
+    width: 100%;
+} */
+
+.navbar {
+    margin-bottom: 0%!important;
+}
+section {
+    margin-bottom: 1%;
+}
+footer {
+    bottom: 0;
+    top: auto;
+}
+
+.main ul {
+    margin: 0%;
+    text-decoration: none;
+    background-color: lightgray;
+    padding: 1%;
+    
+}
+
+.main ul li{
+    list-style-type: none;
+    display: inline;
+}
+
+.navbtn {
+    border: none;
+    width: auto;
+    margin-right: 2%;
+    padding: 1%;
+}

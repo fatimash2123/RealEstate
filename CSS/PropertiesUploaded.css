@@ -1,0 +1,48 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+    background-image: url("../images/whitebg.jpg");
+}
+.properties {
+    background-color: lightslategrey;
+    padding: 2%;
+    border: 2px solid black;
+    margin: 2%;
+}
+.properties img {
+    width: 70%;
+}
+
+.P_icon {
+    margin-right: 2%;
+}
+
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: rgb(247, 179, 57);
+    border: none;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: black;
+}
+
+.heading {
+    color: rgb(247, 179, 57);
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 1%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(247, 179, 57);
+    
+}

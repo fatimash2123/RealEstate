@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+.detailbtns button{
+    color:white;
+    width:20%;
+    margin:2%;
+    font-weight: bolder;
+    overflow: hidden;
+}
+.ownerDetails{
+    background-image: url("../IMAGES/whitebg.jpg");
+    height:50%;
+}
+.sendingDetails{
+    background-image: url("../IMAGES/whitebg.jpg");
+    padding-left: 2%;
+}
+#roundimg{
+    margin-left: 5%;
+    clip-path: circle(10%);
+}
+.sendingDetails label{
+   font-weight: bolder;
+}
+.icons p{
+  font-weight: bold;
+  margin: 1%;
+}
+.icons i{
+    margin:2%;
+ 
+}
+.properimg{
+    width:100%;
+    height:30vh
+}
+.propertysection{
+    background-image: url("../IMAGES/whitebg.jpg");
+    border: 2px solid black;
+    margin-bottom: 4%;
+    margin-top: 4%;
+}
+.propertysectionwhole{
+    background-image: linear-gradient(45deg, rgba(216, 220, 221, 0.9) 50%, rgba(216, 220, 221, 0.9) 50%),url("../IMAGES/contactBg.jpg");
+    margin: 4%;
+    
+}
+body{
+    background-image: url("../IMAGES/whitebg.jpg");
+}
+.sendingDetails{
+padding-left: 7%;
+}
+span{
+    display: block;
+    color: red;
+}

@@ -1,0 +1,194 @@
+
+.bg-image {
+   /* The image used */
+  /* background-image: url("../images/loginbg.jpg"); */
+  /* background-color: rgba(0,0,0, 0.4); Black w/opacity/see-through */
+  /* Center and scale the image nicely */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+form {
+    margin-top: 1%;
+
+    
+}
+
+h1 {
+    color: rgb(247, 179, 57);
+    text-align: center;
+    margin-bottom: 3%;
+    padding: 1%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid rgb(247, 179, 57);
+    
+
+}
+h2 {
+    color: rgb(247, 179, 57);
+    text-align: left;
+    float: left;
+    margin-left: 30%;
+}
+select {
+    margin: 1%;
+    width: 40%;
+    padding: 1%;
+}
+.firstop {
+    color: #adb5bd;
+}
+
+.formContent {
+    text-align: center;
+}
+
+.btn {
+    margin-top: 3%;
+
+
+}
+
+.fb {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+    -webkit-appearance: button;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    vertical-align: bottom;
+    white-space: nowrap;
+    text-rendering: auto;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    height: 52px;
+    line-height: 52px;
+    font-size: 13px;
+    padding: 0 28px;
+    letter-spacing: 1.5px;
+    width: auto;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+    text-align: left !important;
+    background-color: #2d4373;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.goog {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font: inherit;
+    margin: 0;
+    overflow: visible;
+    -webkit-appearance: button;
+    position: relative;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    vertical-align: bottom;
+    white-space: nowrap;
+    text-rendering: auto;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    height: 52px;
+    line-height: 52px;
+    font-size: 13px;
+    padding: 0 28px;
+    letter-spacing: 1.5px;
+    width: auto;
+    padding-right: 8px !important;
+    padding-left: 8px !important;
+    text-align: left !important;
+    background-color: #2d4373;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    background-color: #3a86ff;
+}
+
+.containerBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.itmBtn {
+    flex-direction: row;
+    margin-right: 3%;
+}
+
+.hr-heading {
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    line-height: 1.428571429em;
+    font-weight: 400;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    color: lightgrey;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-top: 2%;
+    margin-bottom: 24px !important;
+}
+
+input {
+    margin: 1%;
+    width: 40%;
+    padding: 1%;
+}
+
+.itmBtn:hover {
+    opacity: 0.7;
+}
+
+input :active {
+    background-color: lightblue;
+}
+
+label {
+    width: 500px!important;
+    float: left;
+    margin-left: 30%;
+    word-wrap: none;
+   
+    text-align: left;
+}
+
+.btn {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: rgb(247, 179, 57);
+    border: none;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
